@@ -30,7 +30,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build -- --base /ai-tools-workshop-2024/
+        run: npm run build -- --base /ai-tools-workshop-202404/
 
       - uses: actions/configure-pages@v4
 
