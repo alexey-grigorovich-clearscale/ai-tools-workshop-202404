@@ -19,13 +19,13 @@ flag.
 
 1. Download the [SimpleCTFChallenge.class](https://github.com/alexey-grigorovich-clearscale/ai-tools-workshop-202404/raw/master/labs/ctf/SimpleCTFChallenge.class) class file
 2. Run the following command to execute the class file:
+    
+    ```bash
+    java -cp . SimpleCTFChallenge
+    ```
 
-```bash
-java -cp . SimpleCTFChallenge
-```
-
-The program will prompt you for username and password. If the credentials are
-valid, it'll output a `flag` value, otherwise will print "Invalid credentials".
+    The program will prompt you for username and password. If the credentials are
+    valid, it'll output a `flag` value, otherwise will print "Invalid credentials".
 
 3. Using Google Gemini or ChatGPT AI assistants, investigate the class file
 structure and locate the correct username and password that will print the
