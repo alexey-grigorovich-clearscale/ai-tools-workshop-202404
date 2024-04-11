@@ -7,3 +7,83 @@
   pointer-events: none;
   opacity: 1 !important;
 }
+
+.slidev-code-wrapper {
+  width: 100%;
+}
+
+/* Base class for both user and AI entries, now with full width */
+.entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 72px; /* Make space for the icon */
+    width: 100%; /* Ensure entry is full width */
+}
+
+/* Generic icon styles, applied using ::before pseudo-element */
+.entry::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 20px; /* Adjusted to ensure consistent padding */
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 100;
+    font-size: 14px; /* Adjusted for visibility of "AI" text */
+    font-family: Arial, sans-serif; /* This is considered a neutral font */
+}
+
+/* Specific styles for user icon to create a generic user figure */
+.user::before {
+    content: '';
+    position: absolute;
+    top: 10px; /* Adjusted for better positioning of the head */
+    left: 25px;
+    width: 16px; /* Width of the head */
+    height: 16px; /* Height of the head */
+    background-color: #adb5bd; /* Gray for the user */
+    border-radius: 50%; /* Circle for the head */
+}
+
+.user::after {
+    content: '';
+    position: absolute;
+    top: 26px; /* Positioned right below the head */
+    left: 20px; /* Align center with the head */
+    width: 24px; /* Width of the body */
+    height: 8px; /* Height of the body */
+    background-color: #adb5bd; /* Same color as the head */
+    border-radius: 5px; /* Slightly rounded corners for the body */
+}
+
+
+.ai::before {
+    background-color: #007bff; /* Blue for the AI */
+    border-radius: 5px; /* Square with slightly rounded corners for AI */
+    content: "AI";
+}
+
+/* Styling for text content, adjusted for full width */
+.entry .text {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin-left: 50px; /* Compensate for the icon space */
+    width: calc(100% - 70px); /* Adjust width to fill space taking the icon into account */
+}
+
+.user .text {
+    background-color: #e9ecef;
+}
+
+.ai .text {
+    background-color: #f8f9fa;
+}
