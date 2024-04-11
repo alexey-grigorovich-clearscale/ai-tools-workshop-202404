@@ -357,3 +357,249 @@ exponentiation. It calculates the area of the circle by multiplying `pi` by the
 </v-click>
 
 ---
+
+## Task 2: Understanding Code and fixing bugs
+
+OK, that was easy. What about performance issues?
+
+```java
+import java.util.Map;
+
+public class ContentUtils {
+    private static final String TEMPLATE_DELIMITERS = "%%";
+
+    /**
+      * Instantiates the given template, replacing placeholders with the corresponding values.
+      */
+    public static String instantiateTemplate(String template, Map<String, String> values) {
+        String result = template;
+        if (result != null && values != null) {
+            for (var item : values.entrySet()) {
+                String attribute = TEMPLATE_DELIMITERS + item.getKey() + TEMPLATE_DELIMITERS;
+                result = result.replace(attribute, item.getValue());
+            }
+        }
+        return result;
+    }
+}
+```
+
+Quick poll: can you spot any issues with the following code?
+
+---
+
+## Task 2: Understanding Code and fixing bugs
+
+<v-click>
+
+<div class="entry user">
+
+```md {all}{maxHeight:'150px'}
+Provide code review comments and code suggestions for the following code:
+
+~~~java
+import java.util.Map;
+
+public class ContentUtils {
+  private static final String TEMPLATE_DELIMITERS = "%%";
+
+  /**
+   * Instantiates the given template, replacing placeholders with the corresponding values
+   */
+  public static String instantiateTemplate(String template, Map<String, String> values) {
+    String result = template;
+    if (result != null && values != null) {
+      for (var item : values.entrySet()) {
+        String attribute = TEMPLATE_DELIMITERS + item.getKey() + TEMPLATE_DELIMITERS;
+        result = result.replace(attribute, item.getValue());
+      }
+    }
+    return result;
+  }
+}
+~~~
+
+```
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="entry ai">
+
+```md {all}{maxHeight:'300px'}
+Sure, here are some code review comments and suggestions for the provided Java code:
+
+**Comments:**
+
+* **Clarity:** The code is well-formatted and easy to read. The variable names
+  are descriptive, and the comments clearly explain the purpose of the
+  function.
+* **Efficiency:** The code could be slightly more efficient by using a
+  StringBuilder instead of repeated string concatenation within the loop.
+
+**Suggestions:**
+
+* **StringBuilder:** Consider using a `StringBuilder` to improve the efficiency
+  of the `replace` operation within the loop. Here's how the code can be
+  modified:
+
+~~~java
+public static String instantiateTemplate(String template, Map<String, String> values) {
+  if (template == null || values == null) {
+    return template; // Handle null cases gracefully
+  }
+  StringBuilder result = new StringBuilder(template);
+  for (var item : values.entrySet()) {
+    String attribute = TEMPLATE_DELIMITERS + item.getKey() + TEMPLATE_DELIMITERS;
+    int index = result.indexOf(attribute);
+    while (index != -1) {
+      result.replace(index, index + attribute.length(), item.getValue());
+      index = result.indexOf(attribute, index + item.getValue().length());
+    }
+  }
+  return result.toString();
+}
+~~~
+
+* **Null Handling:** The current code doesn't handle null cases for `template`
+  and `values`. It would be better to handle these cases explicitly and
+  potentially return an empty string or throw an exception depending on the
+  desired behavior.
+* **Error Handling:** The code assumes that the placeholders (`attribute`) will
+  always exist in the template. Consider adding checks to handle cases where a
+  placeholder might be missing in the template string.
+
+**Additional Notes:**
+
+* The code uses `var` for iterating through the map entries. This requires Java
+  10 or above. If compatibility with older versions is needed, you can use the
+  traditional `Map.Entry<String, String>` type.
+
+I hope these comments and suggestions are helpful!
+```
+
+</div>
+
+</v-click>
+
+---
+
+## Task 2: Understanding Code and fixing bugs
+
+When prompted to focus on performance of processing larger templates with lots of parameters, ChatGPT arrived at a single-pass version:
+
+<div class="entry user">
+
+```md
+Can you suggest performance improvements assuming large templates and large
+number of placeholders?
+```
+
+</div>
+
+<v-click>
+
+<div class="entry ai">
+
+```md {all}{maxHeight:'300px'}
+[... skipped ...]
+
+** Performance-Optimized Code Example **
+
+Here’s how you might implement a more performance-optimized version using
+StringBuilder and a single-pass token parsing strategy:
+
+~~~java
+import java.util.Map;
+
+public class ContentUtils {
+  private static final String TEMPLATE_DELIMITER_START = "%%";
+  private static final String TEMPLATE_DELIMITER_END = "%%";
+
+  /**
+   * Instantiates the given template, replacing placeholders enclosed by %% with the corresponding values.
+   * This method is optimized for large templates and a large number of placeholders.
+   *
+   * @param template The template string with placeholders.
+   * @param values A map containing placeholder values.
+   * @return A string with placeholders replaced by corresponding map values.
+   * @throws IllegalArgumentException if template or values is null.
+   */
+  public static String instantiateTemplate(String template, Map<String, String> values) {
+    if (template == null || values == null) {
+      throw new IllegalArgumentException("Template and values must not be null");
+    }
+
+    StringBuilder result = new StringBuilder();
+    int lastIndex = 0;
+    int startIndex = template.indexOf(TEMPLATE_DELIMITER_START);
+
+    while (startIndex != -1) {
+      // Copy everything up to the start of the placeholder
+      result.append(template, lastIndex, startIndex);
+
+      int endIndex = template.indexOf(TEMPLATE_DELIMITER_END, startIndex + TEMPLATE_DELIMITER_START.length());
+      if (endIndex != -1) {
+        String key = template.substring(startIndex + TEMPLATE_DELIMITER_START.length(), endIndex);
+        // Replace the placeholder with its value from the map, defaulting to the placeholder itself if not found
+        result.append(values.getOrDefault(key, TEMPLATE_DELIMITER_START + key + TEMPLATE_DELIMITER_END));
+
+        lastIndex = endIndex + TEMPLATE_DELIMITER_END.length();
+      } else {
+        // No closing delimiter found, append the rest of the template
+        result.append(template.substring(startIndex));
+        break;
+      }
+
+      startIndex = template.indexOf(TEMPLATE_DELIMITER_START, lastIndex);
+    }
+
+    // Append any remaining part of the template
+    if (lastIndex < template.length()) {
+      result.append(template.substring(lastIndex));
+    }
+
+    return result.toString();
+  }
+}
+~~~
+```
+
+</div>
+
+</v-click>
+
+---
+
+## Task 2: Understanding Code and fixing bugs
+
+Performance Results:
+
+```
+Original version:               4.321083333
+Bard initial version:           48.510457833
+ChatGPT initial version:        4.232012875
+ChatGPT4 optimized version:     6.74222875
+```
+
+Notes:
+- Amuzingly, the original version turned out to be more performant than the "optimized" one on the tests that I've ran
+    - I'm assuming that the `String.replace` built-in is optimized extremely well compared to other variants;
+- GPT4 was able to restructure the loop to arrive at a single-pass variant,
+  although it still under-performed the naive implementation;
+- Bard's optimized variant (not listed here) failed to compile, but your mileage may vary.
+
+---
+
+## Task 2: Understanding Code and fixing bugs
+
+### Lessons
+
+- Both GPT4 and Bard were able to spot the potential inefficiencies and suggest funcitonally equivalent improvements
+- You should always validate the changes to see if they are actually improvements
+- Thankfully, AI could help with testing as well!
+
+
