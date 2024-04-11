@@ -13,7 +13,7 @@ To recreate the packets on your machine, you'll need the following tools:
 # Challenge
 
 Analyze the provided packet capture
-[packet-capture.txt](https://github.com/alexey-grigorovich-clearscale/ai-tools-workshop-202404/blob/master/labs/packet-capture/packet-capture.txt?plain=1)
+[packet-capture.txt](https://github.com/alexey-grigorovich-clearscale/ai-tools-workshop-202404/blob/master/labs/packet-capture/packet-capture.txt?raw=1)
 in text format corresponding to the output of `tcpdump -Ax` using AI assistants
 and determine the network protocol and the payload exchanged.
 
