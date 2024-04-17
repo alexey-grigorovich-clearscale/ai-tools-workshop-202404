@@ -24,11 +24,11 @@ mdc: true
 
 # AI in Software Development Workshop
 
-## Or, How I Outsourced My Job to AI and Still Got Paid
+## Or, How I Outsourced My Job to an AI and Still Got Paid
 
 ---
 
-## Agenda
+# Agenda
 
 - Introduction
 - Understanding of AI tools and technologies
@@ -45,7 +45,7 @@ mdc: true
 
 ---
 
-## Introduction to Modern AI in Software Development
+# Introduction to Modern AI in Software Development
 
 A brief timeline of AI advancements:
 
@@ -63,7 +63,7 @@ A brief timeline of AI advancements:
 
 ---
 
-## Introduction to Modern AI in Software Development
+# Introduction to Modern AI in Software Development
 
 Evolution in AI tools in software development
 
@@ -82,7 +82,7 @@ Evolution in AI tools in software development
 
 ---
 
-## Prerequisites
+# Prerequisites
 
 For the workshop, we recommend having the following tools and accounts ready:
 
@@ -95,7 +95,7 @@ We'll be using examples in Python, Javascript and some other languages throughou
 
 ---
 
-## Task 1: Basic code generation
+# Task 1: Basic code generation
 
 Let's start with something simple. We'll ask the AI to generate a simple "Hello, World!" program in Python:
 
@@ -152,7 +152,7 @@ Note: see how modern models have been trained to follow instructions and generat
 
 ---
 
-## Task 1: Basic code generation
+# Task 1: Basic Code Generation
 
 Let's check if the AI can generate a "Hello, World" in an esoteric language like Brainfuck:
 
@@ -210,7 +210,7 @@ letters in "Hello, World!", and then prints them one by one.
 
 ---
 
-## Task 1: Basic code generation
+# Task 1: Basic Code Generation
 
 I happen to have a Brainfuck compiler on my machine, which I'm going to use to test that code. You could also use an online interpreter such as (https://me.pocke.me/brainfuck-playground/):
 
@@ -226,7 +226,7 @@ Hello World!
 
 ---
 
-## Task 1: Basic code generation
+# Task 1: Basic Code Generation
 
 Another example: z80 assembly language
 
@@ -274,7 +274,7 @@ msg:    db      'Hello, World!', 0 ; Null-terminated string
 
 ---
 
-## Task 2: Understanding Code and fixing bugs
+# Task 2: Understanding Code and Fixing Bugs
 
 The goal is use AI to idenitfy and fix bugs in a given code snippet.
 
@@ -304,12 +304,7 @@ This snippet has subtle bug in the calculation of the area: the code uses the `^
 
 ---
 
-<style>
-
-
-</style>
-
-## Task 2: Understanding Code and fixing bugs
+# Task 2: Understanding Code and fixing bugs
 
 <v-click>
 
@@ -358,7 +353,7 @@ exponentiation. It calculates the area of the circle by multiplying `pi` by the
 
 ---
 
-## Task 2: Understanding Code and fixing bugs
+# Task 2: Understanding Code and Fixing Bugs
 
 OK, that was easy. What about performance issues?
 
@@ -388,7 +383,7 @@ Quick poll: can you spot any issues with the following code?
 
 ---
 
-## Task 2: Understanding Code and fixing bugs
+# Task 2: Understanding Code and fixing bugs
 
 <v-click>
 
@@ -487,7 +482,7 @@ I hope these comments and suggestions are helpful!
 
 ---
 
-## Task 2: Understanding Code and fixing bugs
+# Task 2: Understanding Code and Fixing Bugs
 
 When prompted to focus on performance of processing larger templates with lots of parameters, ChatGPT arrived at a single-pass version:
 
@@ -574,7 +569,7 @@ public class ContentUtils {
 
 ---
 
-## Task 2: Understanding Code and fixing bugs
+# Task 2: Understanding Code and Fixing Bugs
 
 Performance Results:
 
@@ -594,7 +589,7 @@ Notes:
 
 ---
 
-## Task 2: Understanding Code and fixing bugs
+# Task 2: Understanding Code and Fixing Bugs
 
 ### Lessons
 
@@ -604,7 +599,7 @@ Notes:
 
 ---
 
-## Task 3: Refactoring code
+# Task 3: Refactoring Code
 
 The goal here is to improve code readability and performance based on AI suggestions.
 
@@ -638,7 +633,7 @@ public class DataProcessor {
 
 --- 
 
-## Task 3: Refactoring code
+# Task 3: Refactoring Code
 
 
 <v-click>
@@ -752,7 +747,7 @@ by separating concerns and using appropriate data structures.
 
 ---
 
-## Task 4: Writing Unit Tests
+# Task 4: Writing Unit Tests
 
 Objective: generate unit tests for exixting functions
 
@@ -783,7 +778,7 @@ Let's generate some tests for this component using AI.
 
 ---
 
-## Task 4: Writing Unit Tests
+# Task 4: Writing Unit Tests
 
 
 <v-click>
@@ -895,7 +890,7 @@ Note: Gemini has to be prompted multiple times to arrive at a solution
 
 ---
 
-# Task 5: interaction with an unfamiliar API
+# Task 5: Interaction with an Unfamiliar API
 
 ### Objective
 
@@ -911,7 +906,7 @@ Write a Python script to scan a DynamoDB users table and delete records where th
 
 ---
 
-# Task 5: interaction with an unfamiliar API
+# Task 5: interaction with an Unfamiliar API
 
 <v-click>
 
@@ -1001,7 +996,7 @@ for large datasets.
 
 ---
 
-# Task 5: Interaction with an unfamiliar API
+# Task 5: Interaction with an Unfamiliar API
 
 Notes:
 - As noted by the assistant, handling large tables needs pagination. Tweak the script so that it uses pagination.
@@ -1009,7 +1004,7 @@ Notes:
 
 ---
 
-# Task 6: Analysis of TCP packet capture
+# Task 6: Analysis of a TCP Packet Capture
 
 Let's try something else not directly related to programming. Let's see if
 modern AI assistants can handle a task of analyzing a TCP packet capture.
@@ -1024,7 +1019,7 @@ Challenge:
 
 ---
 
-# Task 6: Analysis of TCP packet capture
+# Task 6: Analysis of a TCP Packet Capture
 
 <v-click>
 
@@ -1191,7 +1186,7 @@ structure and contents.
 
 ---
 
-# Challenge: capture the flag
+# Challenge: Capture the Flag
 
 Let's solve a simple Capture the Flag (CTF) challenge.
 
@@ -1214,7 +1209,7 @@ flag.
 
 ---
 
-# Challenge: capture the flag
+# Challenge: Capture the Flag
 
 <v-click>
 
@@ -1296,7 +1291,7 @@ capture the flag.
 </v-click>
 ---
 
-# Challenge: capture the flag (continued)
+# Challenge: Capture the Flag (continued)
 
 <v-click>
 
@@ -1656,7 +1651,7 @@ potentially crack it to find the correct credentials for capturing the flag.
 
 ---
 
-# Challenge: capture the flag (continued)
+# Challenge: Capture the Flag (continued)
 
 <v-click>
 
@@ -1724,7 +1719,7 @@ the solution.
 
 ---
 
-# Challenge: capture the flag (continued)
+# Challenge: Capture the Flag (continued)
 
 Summary;
 - With some help from the user, AI assistants are able to mostly solve the problem
@@ -1734,6 +1729,8 @@ Summary;
   generate and run some code on their own to do computational tasks like
   decoding secrets or doing other types of analysis
 - Safety filters are sometimes overly aggressive and tricky to work around
+
+<!--
 
 # Template slide
 
@@ -1760,3 +1757,5 @@ Response
 </div>
 
 </v-click>
+
+-->
