@@ -172,7 +172,7 @@ Write a Brainfuck program that prints 'Hello, World!' to the console.
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'400px'}
+```md {all}{maxHeight:'300px'}
 Brainfuck is an esoteric programming language designed to challenge and amuse
 programmers, and not for practical use. Its simplicity in the design,
 consisting of only eight commands, belies the complexity of the programs it
@@ -310,7 +310,7 @@ This snippet has subtle bug in the calculation of the area: the code uses the `^
 
 <div class="entry user">
 
-```md
+```md {all}{maxHeight:'100px'}
 Identify and correct the error in this Python function.
 
 ~~~python
@@ -329,7 +329,7 @@ def calculate_area(radius):
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'300px'}
+```md {all}{maxHeight:'260px'}
 The error in the function is the way the exponent is calculated. In Python, the
 caret (`^`) symbol is used for the bitwise XOR operator, not exponentiation.
  
@@ -389,7 +389,7 @@ Quick poll: can you spot any issues with the following code?
 
 <div class="entry user">
 
-```md {all}{maxHeight:'150px'}
+```md {all}{maxHeight:'100px'}
 Provide code review comments and code suggestions for the following code:
 
 ~~~java
@@ -424,7 +424,7 @@ public class ContentUtils {
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'300px'}
+```md {all}{maxHeight:'260px'}
 Sure, here are some code review comments and suggestions for the provided Java code:
 
 **Comments:**
@@ -499,7 +499,7 @@ number of placeholders?
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'300px'}
+```md {all}{maxHeight:'260px'}
 [... skipped ...]
 
 ** Performance-Optimized Code Example **
@@ -591,8 +591,7 @@ Notes:
 
 # Task 2: Understanding Code and Fixing Bugs
 
-### Lessons
-
+Lessons:
 - Both GPT4 and Bard were able to spot the potential inefficiencies and suggest funcitonally equivalent improvements
 - You should always validate the changes to see if they are actually improvements
 - Thankfully, AI could help with testing as well!
@@ -601,11 +600,9 @@ Notes:
 
 # Task 3: Refactoring Code
 
-The goal here is to improve code readability and performance based on AI suggestions.
+The goal here is to improve code readability and performance based on AI suggestions. The following code snippet has a couple of issues with readability and maintainability, let's see if AI can fix those:
 
-The following code snippet has a couple of issues with readability and maintainability, let's see if AI can fix those:
-
-```java
+```java {all}{maxHeight:'350px'}
 import java.util.*;
 
 public class DataProcessor {
@@ -640,7 +637,7 @@ public class DataProcessor {
 
 <div class="entry user">
 
-```md {all}{maxHeight:'150px'}
+```md {all}{maxHeight:'100px'}
 Refactor this Java method for better readability and modularity:
 
 ~~~java
@@ -679,7 +676,7 @@ public class DataProcessor {
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'300px'}
+```md {all}{maxHeight:'260px'}
 Here's the refactored Java method for better readability and modularity:
 
 ~~~java
@@ -749,11 +746,9 @@ by separating concerns and using appropriate data structures.
 
 # Task 4: Writing Unit Tests
 
-Objective: generate unit tests for exixting functions
+Objective: generate unit tests for exixting functions. Assume that we have the following React component:
 
-Assume that we have the following React component:
-
-```js
+```js {all}{maxHeight:'350px'}
 import React, { useState } from 'react';
  
 function ClickCounter() {
@@ -785,7 +780,7 @@ Let's generate some tests for this component using AI.
 
 <div class="entry user">
 
-```md {all}{maxHeight:'150px'}
+```md {all}{maxHeight:'100px'}
 Generate unit tests for the add function in JavaScript.
 ~~~js
 
@@ -819,7 +814,7 @@ export default ClickCounter;
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'300px'}
+```md {all}{maxHeight:'260px'}
 To generate unit tests for a component like `ClickCounter` in React, you'd
 typically want to focus on testing its functionality, ensuring that the
 component behaves as expected under different conditions. Since the primary
@@ -1126,7 +1121,7 @@ Explain the following packets captured by tcpdump. Include explanation of the un
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'300px'}
+```md {all}{maxHeight:'250px'}
 ## Explanation of the captured packets
 
 These packets show a TCP connection establishment and data exchange between two
@@ -1238,7 +1233,7 @@ flag.
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'300px'}
+```md {all}{maxHeight:'250px'}
 Here's how you can start solving the CTF challenge using tools built into the JDK:
 
 **1. Analyze the class file:**
@@ -1605,7 +1600,7 @@ InnerClasses:
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'300px'}
+```md {all}{maxHeight:'250px'}
 ## Next steps to solve the CTF challenge:
 
 Based on the `javap -v` output, here's how you can proceed:
@@ -1669,7 +1664,7 @@ Can you suggest steps for decrypting the encrypted password?
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'300px'}
+```md {all}{maxHeight:'320px'}
 Here are some steps you can take to try decrypting the password:
 
 1. **Analyze the Encryption Key:**
