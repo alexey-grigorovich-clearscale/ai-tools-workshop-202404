@@ -95,7 +95,7 @@ We'll be using examples in Python, Javascript and some other languages throughou
 
 ---
 
-# Task 1: Basic code generation
+# Task 1: Basic Code Generation
 
 Let's start with something simple. We'll ask the AI to generate a simple "Hello, World!" program in Python:
 
@@ -383,7 +383,7 @@ Quick poll: can you spot any issues with the following code?
 
 ---
 
-# Task 2: Understanding Code and fixing bugs
+# Task 2: Understanding Code and Fixing Bugs
 
 <v-click>
 
