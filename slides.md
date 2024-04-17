@@ -1233,7 +1233,7 @@ flag.
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'250px'}
+```md {all}{maxHeight:'220px'}
 Here's how you can start solving the CTF challenge using tools built into the JDK:
 
 **1. Analyze the class file:**
@@ -1600,7 +1600,7 @@ InnerClasses:
 
 <div class="entry ai">
 
-```md {all}{maxHeight:'250px'}
+```md {all}{maxHeight:'220px'}
 ## Next steps to solve the CTF challenge:
 
 Based on the `javap -v` output, here's how you can proceed:
