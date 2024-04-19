@@ -77,7 +77,7 @@ Evolution in AI tools in software development
 
 <v-clicks>
 
-- code completion and generation (e.g. GitHub Copilot, AWS CodeWhisperer aka Q Developer)
+- code completion and generation (e.g. GitHub Copilot, AWS Q Developer, Cursor Copilot)
 - code suggestions and refactoring (e.g. GitHub Copilot Chat)
 - code review (AWS CodeGuru)
 - code search and completions (SourceGraph Cody)
@@ -281,6 +281,21 @@ msg:    db      'Hello, World!', 0 ; Null-terminated string
 </v-click>
 
 ---
+
+# Intermission
+
+## So, how does this work?
+
+At the core of each AI assistant lies a large language model that predicts most
+likely next token (word) given the previous words. There's a limited window of
+how many takes the mdoel can look back to.
+
+When you chat with the language model, it seeds the context with the past
+conversation and your latest prompt, and then goes on generating the most
+likely word, one word after another.
+
+---
+
 
 # Task 2: Understanding Code and Fixing Bugs
 
