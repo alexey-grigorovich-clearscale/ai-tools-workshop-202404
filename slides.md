@@ -26,6 +26,16 @@ mdc: true
 
 ## Or, How I Outsourced My Job to an AI and Still Got Paid
 
+To follow along, visit https://alexey-grigorovich-clearscale.github.io/ai-tools-workshop-202404/1
+
+<!--
+
+Hi everyone, my name is Alexey Grigorovich and today I've been asked by the
+powers that be to conduct a quick workshop on how the AI tools can potentially
+help you with your work.
+
+-->
+
 ---
 
 # Agenda
@@ -33,10 +43,8 @@ mdc: true
 - Introduction
 - Understanding of AI tools and technologies
 - Practical demonstrations
-- Addressing Challenges and Mitigating Risks
-- The Future of AI in Software Development
-- Q&amp;A Session
 - Closing Remarks and Resources
+- Q&amp;A Session
 
 <!--
 - Welcome, my name is Alexey Grigorovich and I will be your host today for the AI in Software Development workshop.
@@ -1724,6 +1732,47 @@ Summary;
   generate and run some code on their own to do computational tasks like
   decoding secrets or doing other types of analysis
 - Safety filters are sometimes overly aggressive and tricky to work around
+
+---
+
+# Closing Remarks 
+
+What we've seen so far:
+- AI assistants are good at generating "boilerplate" code for well-known langugages and frameworks
+- They are fairly good at the tasks of understanding the code and suggesting refactoring
+- They are also great for exploratory work in unfamiliar domains or technology stacks
+
+---
+
+# Closing remarks
+
+Things to be aware of:
+- AI will happily hallucinate incorrect solutions, invent non-existing APIs. Make sure you validate its output...
+    - Thankfully, you can ask the AI to write the tests first, which can act as the validation
+- Be aware of the limits of the model that you're using, such as its context
+  size. For larger inputs or conversation, data loss is unavoidable, so
+  structure your conversations to work around the issue
+- Privacy concerns: make sure you understand the data privacy policy of the AI
+  assistant you're using. In particular, do not send sensitive information to
+  public versions of ChatGPT or Gemini where that information could be used for
+  training.
+
+---
+
+<center>
+
+# Q&A
+
+Questions?
+
+</center>
+---
+
+<center>
+
+# Thank you!
+
+</center>
 
 <!--
 
