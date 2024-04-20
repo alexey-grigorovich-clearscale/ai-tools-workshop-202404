@@ -41,8 +41,8 @@ help you with your work.
 # Agenda
 
 - Introduction
-- Understanding of AI tools and technologies
-- Practical demonstrations
+- Understanding of AI Tools and Technologies
+- Practical Demonstrations
 - Closing Remarks and Resources
 - Q&amp;A Session
 
@@ -55,10 +55,11 @@ help you with your work.
 
 # Introduction to Modern AI in Software Development
 
-A brief timeline of AI advancements:
+A brief timeline of recent AI advances:
 
 <v-clicks>
 
+- AlexNet, a GPU-accelerated image classification neural network, 2012
 - Transformers paper by Vaswani et al. in 2017, kicking off the transformer revolution
 - GPT-2 published by OpenAI in 2019
 - GitHub Copilot beta released by GitHub in 2021
@@ -73,14 +74,26 @@ A brief timeline of AI advancements:
 
 # Introduction to Modern AI in Software Development
 
+Obligatory XKCD reference: this comic was published in 2014, mere 10 years ago:
+
+<center>
+
+<img src="https://imgs.xkcd.com/comics/tasks.png" style="height:380px"/>
+
+</center>
+
+---
+
+# Introduction to Modern AI in Software Development
+
 Evolution in AI tools in software development
 
 <v-clicks>
 
-- code completion and generation (e.g. GitHub Copilot, AWS Q Developer, Cursor Copilot)
-- code suggestions and refactoring (e.g. GitHub Copilot Chat)
-- code review (AWS CodeGuru)
-- code search and completions (SourceGraph Cody)
+- Code completion and generation (e.g. GitHub Copilot, AWS Q Developer, Cursor Copilot)
+- Code suggestions and refactoring (e.g. GitHub Copilot Chat)
+- Code review (AWS CodeGuru)
+- Code search and completions (SourceGraph Cody)
 
 </v-clicks>
 
@@ -94,8 +107,8 @@ Evolution in AI tools in software development
 
 For the workshop, we recommend having the following tools and accounts ready:
 
-- Google Gemini account
-- Optionally, OpenAI ChatGPT account
+- [Google Gemini](https://gemini.google.com) account
+- Optionally, [OpenAI ChatGPT](https://chat.openai.com) account
 - Code editor and language runtimes, or
 - an online playground (such as repl.it)
 
@@ -281,21 +294,6 @@ msg:    db      'Hello, World!', 0 ; Null-terminated string
 </v-click>
 
 ---
-
-# Intermission
-
-## So, how does this work?
-
-At the core of each AI assistant lies a large language model that predicts most
-likely next token (word) given the previous words. There's a limited window of
-how many takes the mdoel can look back to.
-
-When you chat with the language model, it seeds the context with the past
-conversation and your latest prompt, and then goes on generating the most
-likely word, one word after another.
-
----
-
 
 # Task 2: Understanding Code and Fixing Bugs
 
@@ -598,7 +596,7 @@ Performance Results:
 
 ```
 Original version:               4.321083333
-Gemini initial version:           48.510457833
+Gemini initial version:         48.510457833
 ChatGPT initial version:        4.232012875
 ChatGPT4 optimized version:     6.74222875
 ```
@@ -618,6 +616,87 @@ Lessons:
 - Both GPT4 and Bard were able to spot the potential inefficiencies and suggest funcitonally equivalent improvements
 - You should always validate the changes to see if they are actually improvements
 - Thankfully, AI could help with testing as well!
+
+---
+
+# Intermission
+
+## So, how does this work?
+
+At the core of each AI assistant lies a large language model that predicts most
+likely next token (word) given the previous words. There's a limited window of
+how many takes the mdoel can look back to.
+
+When you chat with the language model, it seeds the context with the past
+conversation and your latest prompt, and then goes on generating the most
+likely word, one word after another.
+
+---
+
+# Intermission
+
+Here's an example of how that could work:
+````md magic-move
+```md
+To date, the cleverest thinker of all time was [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
+theories[...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
+theories of Relativity[...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
+theories of Relativity, which completely revolutionized our understanding [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
+theories of Relativity, which completely revolutionized our understanding
+of the physical world and laid the groundworks for modern physics. [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
+theories of Relativity, which completely revolutionized our understanding 
+of the physical world and laid the groundworks for modern physics. <endoftext>
+```
+````
+---
+
+# Intermission
+
+## Key takeaways
+
+- All information specific to your problem has to be in your context
+    - That includes previous prompts _and responses_
+- Any information outside of the context window is "lost"
+- The size of the AI assistant's context window is extremely important as it
+  determines the maximum size of the problem you're trying to solve
+
+---
+
+# Intermission
+
+Some numbers:
+- ChatGPT-3.5 -- 2048 tokens
+- ChatGPT-4 -- 8k tokens
+- Gemini -- 32k tokens
+- Gemini Pro -- "up to millions"
+- Anthropic Claude 3 Opus -- 200k tokens, can be extended to 1 million
 
 ---
 
@@ -769,7 +848,7 @@ by separating concerns and using appropriate data structures.
 
 # Task 4: Writing Unit Tests
 
-Objective: generate unit tests for exixting functions. Assume that we have the following React component:
+Objective: Generate unit tests for exixting functions. Assume that we have the following React component:
 
 ```js {all}{maxHeight:'350px'}
 import React, { useState } from 'react';
@@ -1027,7 +1106,7 @@ Notes:
 Let's try something else not directly related to programming. Let's see if
 modern AI assistants can handle a task of analyzing a TCP packet capture.
 
-Objective: evaluate AI assistant's ability to analyze packet captures
+Objective: Evaluate AI assistant's ability to analyze packet captures
 
 Challenge:
 - Download a packet capture in text format using the link
