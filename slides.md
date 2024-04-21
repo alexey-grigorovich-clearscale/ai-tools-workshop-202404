@@ -24,9 +24,15 @@ mdc: true
 
 # AI in Software Development Workshop
 
-## Or, How I Outsourced My Job to an AI and Still Got Paid
+## Or, The Lazy Developer’s Guide to AI: How to Code Less and Produce More
 
-To follow along, visit https://alexey-grigorovich-clearscale.github.io/ai-tools-workshop-202404/1
+To follow along, visit https://bit.ly/3vSuj4T
+
+<center>
+
+<img style="width: 128px; height: 128px" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJz8+CjwhLS0KQml0bHkgR2VuZXJhdGVkIFFSIENvZGUKdjQKMzN4MzMKLS0+Cjxzdmcgd2lkdGg9JzY1NicgaGVpZ2h0PSc2NTYnCnhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZycKeG1sbnM6eGxpbms9J2h0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsnPgoJPGcgaWQ9J2JhY2tncm91bmQnIHN0eWxlPSdmaWxsOiNmZmZmZmYnID4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjY1NiIgaGVpZ2h0PSI2NTYiIC8+CjwvZz4KPGcgaWQ9J3BpcHMnIHN0eWxlPSdmaWxsOiMwMDAwMDAnID4KPHBhdGggZD0iTTY0LDIyNEw4MCwyMjRMODAsMjQwTDgwLDI1Nkw2NCwyNTZMNjQsMjQwTDY0LDIyNE02NCwzNjhMODAsMzY4TDgwLDM4NEw4MCw0MDBMOTYsNDAwTDk2LDM4NEw5NiwzNjhMMTEyLDM2OEwxMTIsMzUyTDEyOCwzNTJMMTI4LDMzNkwxNDQsMzM2TDE0NCwzNTJMMTQ0LDM2OEwxNDQsMzg0TDE2MCwzODRMMTc2LDM4NEwxNzYsMzY4TDE5MiwzNjhMMTkyLDM4NEwyMDgsMzg0TDIwOCw0MDBMMTkyLDQwMEwxNzYsNDAwTDE2MCw0MDBMMTQ0LDQwMEwxMjgsNDAwTDEyOCwzODRMMTEyLDM4NEwxMTIsNDAwTDEyOCw0MDBMMTI4LDQxNkwxMjgsNDMyTDE0NCw0MzJMMTQ0LDQ0OEwxMjgsNDQ4TDExMiw0NDhMMTEyLDQ2NEw5Niw0NjRMODAsNDY0TDY0LDQ2NEw2NCw0NDhMNjQsNDMyTDY0LDQxNkw2NCw0MDBMNjQsMzg0TDY0LDM2OE04MCw0MTZMODAsNDMyTDgwLDQ0OEw5Niw0NDhMOTYsNDMyTDk2LDQxNkw4MCw0MTZNODAsMjA4TDk2LDIwOEw5NiwyMjRMODAsMjI0TDgwLDIwOE04MCwyODhMOTYsMjg4TDk2LDMwNEwxMTIsMzA0TDExMiwzMjBMOTYsMzIwTDgwLDMyMEw4MCwzMDRMODAsMjg4TTgwLDM1Mkw5NiwzNTJMOTYsMzY4TDgwLDM2OEw4MCwzNTJNOTYsMjQwTDExMiwyNDBMMTEyLDIyNEwxMTIsMjA4TDExMiwxOTJMMTI4LDE5MkwxNDQsMTkyTDE0NCwyMDhMMTYwLDIwOEwxNjAsMjI0TDE0NCwyMjRMMTI4LDIyNEwxMjgsMjQwTDEyOCwyNTZMMTI4LDI3MkwxNDQsMjcyTDE0NCwyODhMMTYwLDI4OEwxNzYsMjg4TDE5MiwyODhMMTkyLDMwNEwyMDgsMzA0TDIyNCwzMDRMMjI0LDMyMEwyNDAsMzIwTDI0MCwzMzZMMjQwLDM1MkwyMjQsMzUyTDIyNCwzNjhMMjA4LDM2OEwxOTIsMzY4TDE5MiwzNTJMMTkyLDMzNkwyMDgsMzM2TDIwOCwzMjBMMTkyLDMyMEwxOTIsMzM2TDE3NiwzMzZMMTYwLDMzNkwxNjAsMzIwTDE3NiwzMjBMMTc2LDMwNEwxNjAsMzA0TDE2MCwzMjBMMTQ0LDMyMEwxMjgsMzIwTDEyOCwzMDRMMTEyLDMwNEwxMTIsMjg4TDExMiwyNzJMMTEyLDI1Nkw5NiwyNTZMOTYsMjQwTTE0NCwyNTZMMTYwLDI1NkwxNzYsMjU2TDE3NiwyNzJMMTYwLDI3MkwxNDQsMjcyTDE0NCwyNTZNMTQ0LDQxNkwxNjAsNDE2TDE3Niw0MTZMMTkyLDQxNkwyMDgsNDE2TDIwOCw0MzJMMjA4LDQ0OEwyMjQsNDQ4TDIyNCw0NjRMMjI0LDQ4MEwyMjQsNDk2TDIyNCw1MTJMMjA4LDUxMkwyMDgsNDk2TDE5Miw0OTZMMTkyLDQ4MEwxOTIsNDY0TDE5Miw0NDhMMTc2LDQ0OEwxNzYsNDMyTDE2MCw0MzJMMTQ0LDQzMkwxNDQsNDE2TTE0NCw0NDhMMTYwLDQ0OEwxNzYsNDQ4TDE3Niw0NjRMMTYwLDQ2NEwxNDQsNDY0TDE0NCw0NDhNMTYwLDE5MkwxNzYsMTkyTDE5MiwxOTJMMTkyLDIwOEwxNzYsMjA4TDE2MCwyMDhMMTYwLDE5Mk0xNjAsMjI0TDE3NiwyMjRMMTc2LDI0MEwxNjAsMjQwTDE2MCwyMjRNMTYwLDM1MkwxNzYsMzUyTDE3NiwzNjhMMTYwLDM2OEwxNjAsMzUyTTE5Miw5NkwyMDgsOTZMMjA4LDgwTDIwOCw2NEwyMjQsNjRMMjI0LDgwTDIyNCw5NkwyMjQsMTEyTDIwOCwxMTJMMjA4LDEyOEwxOTIsMTI4TDE5MiwxMTJMMTkyLDk2TTE5MiwxNjBMMjA4LDE2MEwyMDgsMTc2TDE5MiwxNzZMMTkyLDE2ME0xOTIsMjA4TDIwOCwyMDhMMjA4LDE5MkwyMDgsMTc2TDIyNCwxNzZMMjI0LDE5MkwyNDAsMTkyTDI0MCwyMDhMMjI0LDIwOEwyMjQsMjI0TDIwOCwyMjRMMjA4LDI0MEwxOTIsMjQwTDE5MiwyMjRMMTkyLDIwOE0xOTIsMjU2TDIwOCwyNTZMMjA4LDI0MEwyMjQsMjQwTDIyNCwyMjRMMjQwLDIyNEwyNDAsMjA4TDI1NiwyMDhMMjU2LDIyNEwyNzIsMjI0TDI3MiwyMDhMMjg4LDIwOEwyODgsMjI0TDI4OCwyNDBMMjcyLDI0MEwyNzIsMjU2TDI4OCwyNTZMMzA0LDI1NkwzMDQsMjQwTDMyMCwyNDBMMzIwLDI1NkwzMzYsMjU2TDMzNiwyNzJMMzIwLDI3MkwzMDQsMjcyTDMwNCwyODhMMzA0LDMwNEwyODgsMzA0TDI3MiwzMDRMMjcyLDI4OEwyNzIsMjcyTDI1NiwyNzJMMjU2LDI1NkwyNDAsMjU2TDIyNCwyNTZMMjI0LDI3MkwyNDAsMjcyTDI1NiwyNzJMMjU2LDI4OEwyNTYsMzA0TDI1NiwzMjBMMjQwLDMyMEwyNDAsMzA0TDIyNCwzMDRMMjI0LDI4OEwyMDgsMjg4TDIwOCwyNzJMMTkyLDI3MkwxOTIsMjU2TTE5Miw1MTJMMjA4LDUxMkwyMDgsNTI4TDIyNCw1MjhMMjI0LDU0NEwyMDgsNTQ0TDE5Miw1NDRMMTkyLDUyOEwxOTIsNTEyTTIwOCwxNDRMMjI0LDE0NEwyMjQsMTYwTDIwOCwxNjBMMjA4LDE0NE0yMDgsNTYwTDIyNCw1NjBMMjI0LDU3NkwyNDAsNTc2TDI0MCw1NjBMMjU2LDU2MEwyNTYsNTc2TDI3Miw1NzZMMjcyLDU2MEwyODgsNTYwTDI4OCw1NDRMMjg4LDUyOEwyNzIsNTI4TDI1Niw1MjhMMjQwLDUyOEwyNDAsNTEyTDI1Niw1MTJMMjU2LDQ5NkwyNDAsNDk2TDI0MCw0ODBMMjU2LDQ4MEwyNzIsNDgwTDI3Miw0NjRMMjcyLDQ0OEwyODgsNDQ4TDI4OCw0NjRMMzA0LDQ2NEwzMDQsNDgwTDMwNCw0OTZMMzIwLDQ5NkwzMjAsNTEyTDMwNCw1MTJMMzA0LDUyOEwzMDQsNTQ0TDMwNCw1NjBMMzA0LDU3NkwzMDQsNTkyTDI4OCw1OTJMMjcyLDU5MkwyNTYsNTkyTDI0MCw1OTJMMjI0LDU5MkwyMDgsNTkyTDIwOCw1NzZMMjA4LDU2ME0yMjQsMTEyTDI0MCwxMTJMMjQwLDEyOEwyMjQsMTI4TDIyNCwxMTJNMjI0LDE2MEwyNDAsMTYwTDI0MCwxNzZMMjI0LDE3NkwyMjQsMTYwTTIyNCw0MDBMMjQwLDQwMEwyNTYsNDAwTDI1NiwzODRMMjU2LDM2OEwyNzIsMzY4TDI3MiwzODRMMjg4LDM4NEwyODgsNDAwTDI3Miw0MDBMMjcyLDQxNkwyODgsNDE2TDI4OCw0MzJMMjcyLDQzMkwyNTYsNDMyTDI1Niw0MTZMMjQwLDQxNkwyMjQsNDE2TDIyNCw0MDBNMjI0LDU0NEwyNDAsNTQ0TDI0MCw1NjBMMjI0LDU2MEwyMjQsNTQ0TTI0MCw2NEwyNTYsNjRMMjU2LDgwTDI1Niw5NkwyNzIsOTZMMjcyLDgwTDI4OCw4MEwzMDQsODBMMzIwLDgwTDMyMCw2NEwzMzYsNjRMMzUyLDY0TDM1Miw4MEwzMzYsODBMMzM2LDk2TDMyMCw5NkwzMjAsMTEyTDMzNiwxMTJMMzUyLDExMkwzNTIsMTI4TDM1MiwxNDRMMzM2LDE0NEwzMzYsMTI4TDMyMCwxMjhMMzIwLDE0NEwzMzYsMTQ0TDMzNiwxNjBMMzM2LDE3NkwzMjAsMTc2TDMyMCwxNjBMMzA0LDE2MEwzMDQsMTc2TDI4OCwxNzZMMjg4LDE2MEwyNzIsMTYwTDI3MiwxNzZMMjU2LDE3NkwyNTYsMTYwTDI1NiwxNDRMMjcyLDE0NEwyNzIsMTI4TDI4OCwxMjhMMjg4LDE0NEwzMDQsMTQ0TDMwNCwxMjhMMjg4LDEyOEwyODgsMTEyTDI3MiwxMTJMMjcyLDEyOEwyNTYsMTI4TDI1NiwxMTJMMjQwLDExMkwyNDAsOTZMMjQwLDgwTDI0MCw2NE0yNDAsMTc2TDI1NiwxNzZMMjU2LDE5MkwyNDAsMTkyTDI0MCwxNzZNMjQwLDQzMkwyNTYsNDMyTDI1Niw0NDhMMjQwLDQ0OEwyNDAsNDMyTTI1NiwxOTJMMjcyLDE5MkwyNzIsMjA4TDI1NiwyMDhMMjU2LDE5Mk0yNTYsMzIwTDI3MiwzMjBMMjcyLDMzNkwyNzIsMzUyTDI1NiwzNTJMMjU2LDMzNkwyNTYsMzIwTTI3Miw0OTZMMjcyLDUxMkwyODgsNTEyTDI4OCw0OTZMMjcyLDQ5Nk0yNzIsMTc2TDI4OCwxNzZMMjg4LDE5MkwyNzIsMTkyTDI3MiwxNzZNMjcyLDM1MkwyODgsMzUyTDI4OCwzNjhMMjcyLDM2OEwyNzIsMzUyTTI4OCwxOTJMMzA0LDE5MkwzMDQsMTc2TDMyMCwxNzZMMzIwLDE5MkwzMzYsMTkyTDM1MiwxOTJMMzUyLDIwOEwzNjgsMjA4TDM2OCwyMjRMMzY4LDI0MEwzNTIsMjQwTDM1MiwyMjRMMzM2LDIyNEwzMzYsMjA4TDMyMCwyMDhMMzIwLDIyNEwzMDQsMjI0TDMwNCwyMDhMMjg4LDIwOEwyODgsMTkyTTI4OCwzMzZMMzA0LDMzNkwzMDQsMzUyTDI4OCwzNTJMMjg4LDMzNk0yODgsMzY4TDMwNCwzNjhMMzA0LDM4NEwyODgsMzg0TDI4OCwzNjhNMjg4LDQwMEwzMDQsNDAwTDMwNCwzODRMMzIwLDM4NEwzMjAsMzY4TDMzNiwzNjhMMzM2LDM1MkwzMjAsMzUyTDMyMCwzMzZMMzM2LDMzNkwzNTIsMzM2TDM2OCwzMzZMMzY4LDM1MkwzNTIsMzUyTDM1MiwzNjhMMzUyLDM4NEwzMzYsMzg0TDMzNiw0MDBMMzM2LDQxNkwzMjAsNDE2TDMwNCw0MTZMMjg4LDQxNkwyODgsNDAwTTI4OCw0MzJMMzA0LDQzMkwzMjAsNDMyTDMzNiw0MzJMMzUyLDQzMkwzNjgsNDMyTDM4NCw0MzJMMzg0LDQxNkw0MDAsNDE2TDQwMCw0MDBMNDE2LDQwMEw0MTYsNDE2TDQzMiw0MTZMNDQ4LDQxNkw0NDgsNDMyTDQ2NCw0MzJMNDY0LDQ0OEw0ODAsNDQ4TDQ5Niw0NDhMNDk2LDQzMkw0ODAsNDMyTDQ4MCw0MTZMNDgwLDQwMEw0ODAsMzg0TDQ5NiwzODRMNTEyLDM4NEw1MTIsNDAwTDQ5Niw0MDBMNDk2LDQxNkw1MTIsNDE2TDUxMiw0MzJMNTI4LDQzMkw1MjgsNDQ4TDUyOCw0NjRMNTQ0LDQ2NEw1NjAsNDY0TDU3Niw0NjRMNTc2LDQ4MEw1NjAsNDgwTDU2MCw0OTZMNTc2LDQ5Nkw1NzYsNTEyTDU3Niw1MjhMNTc2LDU0NEw1NjAsNTQ0TDU2MCw1MjhMNTYwLDUxMkw1NDQsNTEyTDU0NCw1MjhMNTI4LDUyOEw1MTIsNTI4TDUxMiw1NDRMNDk2LDU0NEw0OTYsNTI4TDQ4MCw1MjhMNDgwLDU0NEw0NjQsNTQ0TDQ2NCw1NjBMNDQ4LDU2MEw0NDgsNTQ0TDQzMiw1NDRMNDE2LDU0NEw0MDAsNTQ0TDQwMCw1MjhMMzg0LDUyOEwzODQsNTEyTDQwMCw1MTJMNDAwLDQ5Nkw0MTYsNDk2TDQzMiw0OTZMNDMyLDUxMkw0NDgsNTEyTDQ0OCw0OTZMNDMyLDQ5Nkw0MzIsNDgwTDQxNiw0ODBMNDAwLDQ4MEw0MDAsNDY0TDQxNiw0NjRMNDMyLDQ2NEw0MzIsNDQ4TDQzMiw0MzJMNDE2LDQzMkw0MDAsNDMyTDQwMCw0NDhMMzg0LDQ0OEwzNjgsNDQ4TDM2OCw0NjRMMzg0LDQ2NEwzODQsNDgwTDM2OCw0ODBMMzY4LDQ5NkwzNTIsNDk2TDMzNiw0OTZMMzM2LDQ4MEwzNTIsNDgwTDM1Miw0NjRMMzM2LDQ2NEwzMjAsNDY0TDMyMCw0NDhMMzA0LDQ0OEwyODgsNDQ4TDI4OCw0MzJNMzA0LDM1MkwzMjAsMzUyTDMyMCwzNjhMMzA0LDM2OEwzMDQsMzUyTTMyMCwyODhMMzM2LDI4OEwzMzYsMzA0TDM1MiwzMDRMMzUyLDI4OEwzNjgsMjg4TDM4NCwyODhMMzg0LDMwNEwzNjgsMzA0TDM2OCwzMjBMMzUyLDMyMEwzMzYsMzIwTDMyMCwzMjBMMzIwLDMwNEwzMjAsMjg4TTMyMCw1MjhMMzM2LDUyOEwzMzYsNTEyTDM1Miw1MTJMMzY4LDUxMkwzNjgsNTI4TDM1Miw1MjhMMzUyLDU0NEwzNTIsNTYwTDM2OCw1NjBMMzY4LDU0NEwzODQsNTQ0TDQwMCw1NDRMNDAwLDU2MEw0MDAsNTc2TDQwMCw1OTJMMzg0LDU5MkwzNjgsNTkyTDM2OCw1NzZMMzUyLDU3NkwzMzYsNTc2TDMyMCw1NzZMMzIwLDU2MEwzMzYsNTYwTDMzNiw1NDRMMzIwLDU0NEwzMjAsNTI4TTMzNiwyNDBMMzUyLDI0MEwzNTIsMjU2TDMzNiwyNTZMMzM2LDI0ME0zNTIsOTZMMzY4LDk2TDM4NCw5NkwzODQsMTEyTDM2OCwxMTJMMzUyLDExMkwzNTIsOTZNMzUyLDE2MEwzNjgsMTYwTDM2OCwxNzZMMzUyLDE3NkwzNTIsMTYwTTM1MiwyNTZMMzY4LDI1NkwzODQsMjU2TDM4NCwyNzJMMzY4LDI3MkwzNTIsMjcyTDM1MiwyNTZNMzUyLDQwMEwzNjgsNDAwTDM4NCw0MDBMMzg0LDQxNkwzNjgsNDE2TDM1Miw0MTZMMzUyLDQwME0zNjgsNjRMMzg0LDY0TDQwMCw2NEw0MDAsODBMNDE2LDgwTDQxNiw2NEw0MzIsNjRMNDMyLDgwTDQzMiw5Nkw0MTYsOTZMNDE2LDExMkw0MzIsMTEyTDQzMiw5Nkw0NDgsOTZMNDQ4LDgwTDQ0OCw2NEw0NjQsNjRMNDY0LDgwTDQ2NCw5Nkw0NjQsMTEyTDQ2NCwxMjhMNDQ4LDEyOEw0NDgsMTQ0TDQzMiwxNDRMNDMyLDE2MEw0MzIsMTc2TDQxNiwxNzZMNDE2LDE2MEw0MDAsMTYwTDQwMCwxNDRMMzg0LDE0NEwzODQsMTI4TDQwMCwxMjhMNDAwLDExMkw0MDAsOTZMMzg0LDk2TDM4NCw4MEwzNjgsODBMMzY4LDY0TTM2OCwxNDRMMzg0LDE0NEwzODQsMTYwTDM2OCwxNjBMMzY4LDE0NE0zNjgsMTkyTDM4NCwxOTJMMzg0LDE3NkwzODQsMTYwTDQwMCwxNjBMNDAwLDE3Nkw0MDAsMTkyTDQwMCwyMDhMNDAwLDIyNEwzODQsMjI0TDM4NCwyMDhMMzY4LDIwOEwzNjgsMTkyTTM2OCwzNjhMMzg0LDM2OEw0MDAsMzY4TDQwMCwzODRMNDAwLDQwMEwzODQsNDAwTDM4NCwzODRMMzY4LDM4NEwzNjgsMzY4TTM4NCwyNDBMNDAwLDI0MEw0MDAsMjU2TDM4NCwyNTZMMzg0LDI0ME0zODQsMjcyTDQwMCwyNzJMNDAwLDI1Nkw0MTYsMjU2TDQzMiwyNTZMNDMyLDI3Mkw0NDgsMjcyTDQ0OCwyNTZMNDY0LDI1Nkw0NjQsMjcyTDQ4MCwyNzJMNDgwLDI4OEw0NjQsMjg4TDQ0OCwyODhMNDMyLDI4OEw0MTYsMjg4TDQwMCwyODhMMzg0LDI4OEwzODQsMjcyTTM4NCwzMzZMNDAwLDMzNkw0MDAsMzUyTDM4NCwzNTJMMzg0LDMzNk00MDAsMjI0TDQxNiwyMjRMNDE2LDI0MEw0MDAsMjQwTDQwMCwyMjRNNDE2LDE5Mkw0MzIsMTkyTDQzMiwxNzZMNDQ4LDE3Nkw0NDgsMTkyTDQ0OCwyMDhMNDQ4LDIyNEw0NDgsMjQwTDQzMiwyNDBMNDMyLDIyNEw0MzIsMjA4TDQxNiwyMDhMNDE2LDE5Mk00MTYsMzM2TDQzMiwzMzZMNDMyLDM1Mkw0NDgsMzUyTDQ0OCwzNjhMNDY0LDM2OEw0ODAsMzY4TDQ4MCwzODRMNDY0LDM4NEw0NDgsMzg0TDQzMiwzODRMNDE2LDM4NEw0MTYsMzY4TDQxNiwzNTJMNDE2LDMzNk00MTYsNTYwTDQzMiw1NjBMNDQ4LDU2MEw0NDgsNTc2TDQ2NCw1NzZMNDgwLDU3Nkw0ODAsNTkyTDQ2NCw1OTJMNDQ4LDU5Mkw0MzIsNTkyTDQzMiw1NzZMNDE2LDU3Nkw0MTYsNTYwTTQ0OCwxNDRMNDY0LDE0NEw0NjQsMTYwTDQ2NCwxNzZMNDQ4LDE3Nkw0NDgsMTYwTDQ0OCwxNDRNNDQ4LDMwNEw0NjQsMzA0TDQ2NCwzMjBMNDQ4LDMyMEw0NDgsMzA0TTQ0OCwzMzZMNDY0LDMzNkw0NjQsMzIwTDQ4MCwzMjBMNDgwLDMwNEw0OTYsMzA0TDQ5NiwzMjBMNDk2LDMzNkw0ODAsMzM2TDQ4MCwzNTJMNDY0LDM1Mkw0NDgsMzUyTDQ0OCwzMzZNNDQ4LDQwMEw0NjQsNDAwTDQ2NCw0MTZMNDQ4LDQxNkw0NDgsNDAwTTQ2NCw0NjRMNDY0LDQ4MEw0NjQsNDk2TDQ2NCw1MTJMNDgwLDUxMkw0OTYsNTEyTDUxMiw1MTJMNTEyLDQ5Nkw1MTIsNDgwTDUxMiw0NjRMNDk2LDQ2NEw0ODAsNDY0TDQ2NCw0NjRNNDY0LDIwOEw0ODAsMjA4TDQ4MCwyMjRMNDgwLDI0MEw0NjQsMjQwTDQ2NCwyMjRMNDY0LDIwOE00ODAsMjQwTDQ5NiwyNDBMNDk2LDIyNEw0OTYsMjA4TDUxMiwyMDhMNTI4LDIwOEw1MjgsMjI0TDUxMiwyMjRMNTEyLDI0MEw1MjgsMjQwTDUyOCwyNTZMNTI4LDI3Mkw1MTIsMjcyTDUxMiwyNTZMNDk2LDI1Nkw0OTYsMjcyTDQ4MCwyNzJMNDgwLDI1Nkw0ODAsMjQwTTQ4MCw0ODBMNDk2LDQ4MEw0OTYsNDk2TDQ4MCw0OTZMNDgwLDQ4ME00OTYsMzUyTDUxMiwzNTJMNTEyLDM2OEw0OTYsMzY4TDQ5NiwzNTJNNTEyLDI4OEw1MjgsMjg4TDUyOCwzMDRMNTI4LDMyMEw1NDQsMzIwTDU0NCwzMDRMNTYwLDMwNEw1NzYsMzA0TDU3NiwzMjBMNTYwLDMyMEw1NjAsMzM2TDU0NCwzMzZMNTQ0LDM1Mkw1NjAsMzUyTDU2MCwzNjhMNTYwLDM4NEw1NDQsMzg0TDU0NCw0MDBMNTI4LDQwMEw1MjgsMzg0TDUxMiwzODRMNTEyLDM2OEw1MjgsMzY4TDUyOCwzNTJMNTEyLDM1Mkw1MTIsMzM2TDUxMiwzMjBMNTEyLDMwNEw1MTIsMjg4TTUxMiw0MDBMNTI4LDQwMEw1MjgsNDE2TDUxMiw0MTZMNTEyLDQwME01MjgsMTkyTDU0NCwxOTJMNTYwLDE5Mkw1NjAsMjA4TDU2MCwyMjRMNTQ0LDIyNEw1NDQsMjA4TDUyOCwyMDhMNTI4LDE5Mk01NDQsMjQwTDU2MCwyNDBMNTYwLDI1Nkw1NDQsMjU2TDU0NCwyNDBNNTQ0LDI3Mkw1NjAsMjcyTDU2MCwyNTZMNTc2LDI1Nkw1NzYsMjQwTDU2MCwyNDBMNTYwLDIyNEw1NzYsMjI0TDU5MiwyMjRMNTkyLDI0MEw1OTIsMjU2TDU5MiwyNzJMNTc2LDI3Mkw1NzYsMjg4TDU2MCwyODhMNTQ0LDI4OEw1NDQsMjcyTTU0NCw0MTZMNTYwLDQxNkw1NjAsNDAwTDU2MCwzODRMNTc2LDM4NEw1NzYsNDAwTDU5Miw0MDBMNTkyLDQxNkw1OTIsNDMyTDU5Miw0NDhMNTkyLDQ2NEw1NzYsNDY0TDU3Niw0NDhMNTc2LDQzMkw1NjAsNDMyTDU2MCw0NDhMNTQ0LDQ0OEw1NDQsNDMyTDU0NCw0MTZNNTYwLDMzNkw1NzYsMzM2TDU5MiwzMzZMNTkyLDM1Mkw1OTIsMzY4TDU5MiwzODRMNTc2LDM4NEw1NzYsMzY4TDU3NiwzNTJMNTYwLDM1Mkw1NjAsMzM2WiIgLz4KPHBhdGggZD0iTTQuNzI1Myw5LjA2ODlDNi4xNzksOS4wNDM2IDYuNDE0OSw3LjYxNTQgNi40MTQ5LDYuNzY5QzYuNDE0OSw1LjUxNjMgNS43NzUsNS4wNzg4IDUsNUM0LjA0MjUsNS40MjQyIDMuMzQwMyw2LjE0NiAzLjI1NTUsNy4yNjA2QzMuMjQxNiw3LjQ0NDMgMy4yMzcsNy42ODk0IDMuMjUxNiw3Ljk3NTdDMy4yOTA2LDguNzM4MyAzLjg0OTMsOS4wODQzIDQuNzI1Myw5LjA2ODkgTSAxMi4yNDQ3IDEwLjgwNjggQyAxMS4yMDQ3IDEwLjgwNjggMTAuMTExOCAxMC4xNjczIDEwLjA2IDguOTcwNyBDIDguODc3NCAxMC4yMjIzIDcuMDUzOCAxMC44MTg2IDQuNzI1MyAxMC44MTg2IEMgMi4zNzY5IDEwLjgxODYgMS4zOTYgOS4yMTc1IDEuMzk2IDcuOTcwMyBDIDEuNDU1NCAzLjgxMjYgMS4zNjA1IDIuMjU1IDEuMzQxIDEuOTM1MyBDIDEuMzM5MyAxLjkwNyAxLjMzODEgMS44ODg0IDEuMzM3NyAxLjg3ODUgTCAxLjMzNzMgMS44Njc3IEMgMS4zMzEzIDEuNzA5NiAxLjMyMjQgMS40NzMzIDEuMTcyIDEuNDU3MiBDIDEuMDc4NiAxLjQ0NzIgMS4wMTgzIDEuNDc1NyAwLjkxMSAxLjYwOTQgQyAwLjc1IDEuODIzMyAwLjQyNSAxLjkwOCAwLjIyNzMgMS43OTM3IEMgLTAuMDExNiAxLjY1NTUgLTAuMDU2MiAxLjM1MDUgMC4wNjQ3IDEuMDY5NyBDIDAuNDAwMiAwLjMyMTIgMC45Mzc5IC0wLjAxIDEuNjYyNSAwLjAwMDMgQyAyLjkxNDYgMC4wMTgyIDMuMjczOCAwLjgzNTkgMy4yNzM4IDEuODU3NSBDIDMuMjczOCAxLjg1NzUgMy4yNDYgMy4zMjkyIDMuMjQ2IDQuMTU3OSBDIDMuNjg5IDMuNzk2OSA0LjMzOTcgMy40MDk4IDUuNDI2NiAzLjQwOTggQyA3LjY4OTkgMy40MDk4IDkuMTI2NyA2LjIxMTggNy42NTAzIDguODkyNSBDIDkuNTQyOCA4LjAxOTcgOS45Mzc4IDYuNTE2NCAxMC4wMTEyIDUuMDIzOCBMIDEwLjAwNDMgNC41MjAzIEMgMTAuMDA0MyAzLjk1NTIgMTAuMzY4OCAzLjQ3NjcgMTAuOTM2MSAzLjQ3NjcgQyAxMS41MDM0IDMuNDc2NyAxMS44ODAyIDMuOTg3NyAxMS44NiA0LjUyNzEgQyAxMS43OTE5IDYuMzQzOCAxMS43NjQ0IDcuNTM5NSAxMS43NjQ0IDguMTcyMiBDIDExLjc2NDQgOC41Mzg0IDExLjk2NDIgOS4wOTk2IDEyLjU1NTUgOS4wOTk2IEMgMTMuNzEzNCA5LjA5OTYgMTQuMDk0IDguMTkyMiAxNC4xODM4IDYuMDU5NSBDIDE0LjE4ODUgNS4yNjQyIDE0LjE5MjcgNC41OTk3IDE0LjE5MjcgNC41OTk3IEMgMTMuNjY3OSA0LjU5OTcgMTMuNDA5NCA0LjMyNCAxMy40MDk0IDMuOTc5NSBDIDEzLjQwOTQgMy42MzUgMTMuNjgzIDMuMzE2MyAxNC4xMzIxIDMuMzE2MyBDIDE0LjEzMjEgMy4zMTYzIDE0LjEzMyAyLjExODIgMTQuMTMzIDEuNjIyIEMgMTQuMTMzIDEuMDU2OSAxNC41NzE1IDAuNTg4MyAxNS4xMzg4IDAuNTg4MyBDIDE1LjcwNjIgMC41ODgzIDE2LjE1NjcgMS4wNTY5IDE2LjE1NjcgMS42MjIgQyAxNi4xNTY3IDEuODA5NSAxNi4xNDk1IDIuMDI4IDE2LjE0MTYgMi4yNjk1IEMgMTYuMTMxNSAyLjU3ODQgMTYuMTIwMSAyLjkyNDYgMTYuMTIxIDMuMjkwOSBMIDE2LjIwMzIgMy4yOTA1IEggMTYuMjAzMiBDIDE2LjM1NyAzLjI5IDE2LjcwNTEgMy4yODg4IDE3LjE2ODEgMy4yODM0IEMgMTcuNzE5OCAzLjI3NjkgMTcuOTQ0NSAzLjU4NTEgMTcuOTQ0NSAzLjk3MDkgQyAxNy45NDQ1IDQuMzU2NyAxNy42NDc1IDQuNjI2IDE3LjI2MDIgNC42Mjc2IEMgMTYuOTAxMiA0LjYyOTEgMTYuMTA4MyA0LjYyNDcgMTYuMTA4MyA0LjYyNDcgQyAxNi4wNzIzIDUuNzY3NCAxNi4wMzgyIDcuMTQ1MSAxNi4wMzgyIDguMjQ3NSBDIDE2LjAzODIgOC42NDUxIDE2LjMxMjYgOS4wOTk1IDE2Ljk3NjcgOS4wOTk1IEMgMTguMzE2MyA5LjA5OTUgMTguODE2NyA3LjkwOTIgMTguOTE3MyA1LjY0OTggQyAxOC45MDk1IDQuMDc2NiAxOC44OTA3IDMuMTY1MyAxOC44NzY1IDIuNDc4NSBWIDIuNDc4NSBDIDE4Ljg2NjYgMS45OTY5IDE4Ljg1OSAxLjYyNTggMTguODU5IDEuMjE0MyBDIDE4Ljg1OSAwLjY0OTMgMTkuMzI5NSAwLjE0NDIgMTkuODk2NyAwLjE0NDIgQyAyMC40NjQxIDAuMTQ0MiAyMC44ODI2IDAuNTk3NyAyMC44ODI2IDEuMTYyNyBDIDIwLjg4MjYgMS41OTggMjAuODY1MSAyLjEwNjkgMjAuODQxMyAyLjgwMDkgViAyLjgwMDkgViAyLjgwMSBDIDIwLjgwMSAzLjk3NDcgMjAuNzQyNSA1LjY3NzggMjAuNzE5NSA4LjQ1MDQgQyAyMC43MTY1IDguODE5NSAyMC44OTY3IDkuMDc5NSAyMS4zNzQ4IDkuMDc5NSBDIDIyLjY1MjQgOS4wNzk1IDIzLjAwNjYgNy42OTU1IDIzLjExOSA1Ljc2MjUgQyAyMy4xMTk3IDUuNjY5NSAyMy4xMjA1IDUuNTc4NSAyMy4xMjE0IDUuNDg5MSBMIDIzLjEyMTQgNS40ODg3IEMgMjMuMTIzMSA1LjMwNTQgMjMuMTI0NyA1LjEyODkgMjMuMTI0NyA0Ljk1NjEgQyAyMy4xMjQ3IDQuMzkxIDIzLjUwMTEgMy45MzM3IDI0LjA2ODYgMy45MzM3IEMgMjQuNjM1OSAzLjkzMzcgMjQuOTY5NCA0LjQwMjIgMjQuOTY5NCA0Ljk2NzMgQyAyNC45Njk0IDUuMzY5OCAyNC45NTYyIDUuNzQ2NCAyNC45NDI3IDYuMTM0OCBDIDI0LjkzMDcgNi40Nzc3IDI0LjkxODQgNi44Mjk5IDI0LjkxNDYgNy4yMTc2IEMgMjQuOTA0NyA4LjIxNTEgMjUuMjQ1NSA5LjA5MzggMjYuMDc1NiA5LjA5MTQgQyAyNi44NzI2IDkuMDg5MSAyNy43NDc5IDguNzUzNiAyNy43NjkxIDcuMDQ1IEMgMjcuNzc1MSA2LjU3MDEgMjcuNzY4MyA2LjIwNTMgMjcuNzYxNSA1LjgzNzEgViA1LjgzNyBWIDUuODM2OSBWIDUuODM2OCBDIDI3Ljc1NjQgNS41NjQyIDI3Ljc1MTMgNS4yODk3IDI3Ljc1MTMgNC45NjczIEMgMjcuNzUxMyA0LjQwMjIgMjguMTQ1MSAzLjkzMzcgMjguNzEyNSAzLjkzMzcgQyAyOS4yNzk1IDMuOTMzNyAyOS42NzM3IDQuNDAyMiAyOS42NzM3IDQuOTY3MyBDIDI5LjY3MzcgNS4zMDUxIDI5LjY2MTQgNS42NDE1IDI5LjY0NzcgNi4wMTQ1IFYgNi4wMTQ1IFYgNi4wMTQ2IFYgNi4wMTQ2IEMgMjkuNjMwNyA2LjQ3ODMgMjkuNjExNyA2Ljk5ODQgMjkuNjExNyA3LjY0NzcgQyAyOS42MTE3IDcuNjQ3NyAyOS41NzY5IDEwLjAxNDEgMjkuNjYgMTAuNTM3OCBDIDI5LjkyMDMgMTAuNDUxMiAzMC4yOTU4IDEwLjE5NjggMzAuNjkzNSA5LjU4MDIgQyAzMC45MzM3IDkuMjA4IDMxLjM5MjggOS4xMjgyIDMxLjY3NTggOS4yOTMgQyAzMi4wNjUzIDkuNTIgMzIuMDUxNCA5Ljk2MzUgMzEuOTA1OCAxMC4yODc1IEMgMzEuNTI5OCAxMS4xMjM5IDMxLjA0MDkgMTEuNjM1OCAyOS44MDQ3IDEyLjA1OTUgQyAyOS44MDg2IDEzLjQ3ODIgMjkuNzA5OCAxNS41NzEzIDI3LjA4NjggMTUuOTQ5NiBDIDI0Ljg0MDUgMTYuMjczNSAyMy44MjQ0IDE0Ljk3MDggMjMuODIxMSAxMy44NjIzIEMgMjMuODE1NyAxMi4xMTIgMjUuNTY0OSAxMS42MDIyIDI4LjA4OTcgMTAuOTY2NSBMIDI4LjAwODcgMTAuMDk5IEMgMjguMDA4NyAxMC4wOTkgMjcuNDQ2NCAxMC44MzY0IDI2LjAyMTUgMTAuODAwOCBDIDI0LjkyMjMgMTAuNzczMyAyNC4xNjYzIDEwLjI1NDMgMjMuNzA3NyA5LjUyMTMgQyAyMy4xNzg3IDEwLjM5MDEgMjIuMzQ5NSAxMC44MTA1IDIxLjEwMDQgMTAuODEwNSBDIDIwLjI3NzUgMTAuODEwNSAxOS40OTM0IDEwLjM3NTggMTkuMTA1MSA5Ljc0NTcgQyAxOC41MzI1IDEwLjQzMDggMTcuNzMzOSAxMC44MDE1IDE2LjY2MDcgMTAuODAxNSBDIDE1LjcyNTYgMTAuODAxNSAxNS4wMzQ2IDEwLjQ3ODYgMTQuNjIwOSA5Ljk3NDYgQyAxNC4wODcgMTAuNTcxMiAxMy4zMTggMTAuODA2OCAxMi4yNDQ3IDEwLjgwNjggWiBNIDI4LjI1NDggMTIuMzYzIEMgMjYuOTc4NiAxMi42Mzg1IDI1LjM3OTggMTMuMDQwNyAyNS4zOTgzIDEzLjgyNjYgQyAyNS40MTU4IDE0LjU2MzYgMjYuMTc2NyAxNC42OTc3IDI2LjgxMTEgMTQuNTY2NiBDIDI4LjEyODYgMTQuMjk0MyAyOC4yODE2IDEzLjUwMTUgMjguMjU0OCAxMi4zNjMgWiBNIDExLjk3MDQgMS42MjQ5IEMgMTEuOTcwNCAxLjA1NDQgMTEuNTA3MyAwLjU5MzIgMTAuOTM0NyAwLjU5MzIgQyAxMC4zNjE5IDAuNTkzMiA5Ljg5ODkgMS4wNTQ0IDkuODk4OSAxLjYyNDkgQyA5Ljg5ODkgMi4xOTUzIDEwLjM2MTkgMi42NTY2IDEwLjkzNDcgMi42NTY2IEMgMTEuNTA3MyAyLjY1NjYgMTEuOTcwNCAyLjE5NTMgMTEuOTcwNCAxLjYyNDkgWiIgZmlsbD0nIzAwMDAwMCcgdHJhbnNmb3JtPSd0cmFuc2xhdGUoNTIwLjAwMDAwMCwgNTU2LjAwMDAwMCkgc2NhbGUoMi4yNTAwMDAsIDIuMjUwMDAwKScgLz4KPC9nPgo8ZyBpZD0nY29ybmVycy1vdXRlci0xJyBzdHlsZT0nZmlsbDojMDAwMDAwJyA+CjxwYXRoIGQ9Ik02NCw2NEw4MCw2NEw5Niw2NEwxMTIsNjRMMTI4LDY0TDE0NCw2NEwxNjAsNjRMMTc2LDY0TDE3Niw4MEwxNzYsOTZMMTc2LDExMkwxNzYsMTI4TDE3NiwxNDRMMTc2LDE2MEwxNzYsMTc2TDE2MCwxNzZMMTQ0LDE3NkwxMjgsMTc2TDExMiwxNzZMOTYsMTc2TDgwLDE3Nkw2NCwxNzZMNjQsMTYwTDY0LDE0NEw2NCwxMjhMNjQsMTEyTDY0LDk2TDY0LDgwTDY0LDY0TTgwLDgwTDgwLDk2TDgwLDExMkw4MCwxMjhMODAsMTQ0TDgwLDE2MEw5NiwxNjBMMTEyLDE2MEwxMjgsMTYwTDE0NCwxNjBMMTYwLDE2MEwxNjAsMTQ0TDE2MCwxMjhMMTYwLDExMkwxNjAsOTZMMTYwLDgwTDE0NCw4MEwxMjgsODBMMTEyLDgwTDk2LDgwTDgwLDgwWiIgLz4KPC9nPgo8ZyBpZD0nY29ybmVycy1pbm5lci0xJyBzdHlsZT0nZmlsbDojMDAwMDAwJyA+CjxwYXRoIGQ9Ik05Niw5NkwxMTIsOTZMMTI4LDk2TDE0NCw5NkwxNDQsMTEyTDE0NCwxMjhMMTQ0LDE0NEwxMjgsMTQ0TDExMiwxNDRMOTYsMTQ0TDk2LDEyOEw5NiwxMTJMOTYsOTZaIiAvPgo8L2c+CjxnIGlkPSdjb3JuZXJzLW91dGVyLTInIHN0eWxlPSdmaWxsOiMwMDAwMDAnID4KPHBhdGggZD0iTTQ4MCw2NEw0OTYsNjRMNTEyLDY0TDUyOCw2NEw1NDQsNjRMNTYwLDY0TDU3Niw2NEw1OTIsNjRMNTkyLDgwTDU5Miw5Nkw1OTIsMTEyTDU5MiwxMjhMNTkyLDE0NEw1OTIsMTYwTDU5MiwxNzZMNTc2LDE3Nkw1NjAsMTc2TDU0NCwxNzZMNTI4LDE3Nkw1MTIsMTc2TDQ5NiwxNzZMNDgwLDE3Nkw0ODAsMTYwTDQ4MCwxNDRMNDgwLDEyOEw0ODAsMTEyTDQ4MCw5Nkw0ODAsODBMNDgwLDY0TTQ5Niw4MEw0OTYsOTZMNDk2LDExMkw0OTYsMTI4TDQ5NiwxNDRMNDk2LDE2MEw1MTIsMTYwTDUyOCwxNjBMNTQ0LDE2MEw1NjAsMTYwTDU3NiwxNjBMNTc2LDE0NEw1NzYsMTI4TDU3NiwxMTJMNTc2LDk2TDU3Niw4MEw1NjAsODBMNTQ0LDgwTDUyOCw4MEw1MTIsODBMNDk2LDgwWiIgLz4KPC9nPgo8ZyBpZD0nY29ybmVycy1pbm5lci0yJyBzdHlsZT0nZmlsbDojMDAwMDAwJyA+CjxwYXRoIGQ9Ik01MTIsOTZMNTI4LDk2TDU0NCw5Nkw1NjAsOTZMNTYwLDExMkw1NjAsMTI4TDU2MCwxNDRMNTQ0LDE0NEw1MjgsMTQ0TDUxMiwxNDRMNTEyLDEyOEw1MTIsMTEyTDUxMiw5NloiIC8+CjwvZz4KPGcgaWQ9J2Nvcm5lcnMtb3V0ZXItMycgc3R5bGU9J2ZpbGw6IzAwMDAwMCcgPgo8cGF0aCBkPSJNNjQsNDgwTDgwLDQ4MEw5Niw0ODBMMTEyLDQ4MEwxMjgsNDgwTDE0NCw0ODBMMTYwLDQ4MEwxNzYsNDgwTDE3Niw0OTZMMTc2LDUxMkwxNzYsNTI4TDE3Niw1NDRMMTc2LDU2MEwxNzYsNTc2TDE3Niw1OTJMMTYwLDU5MkwxNDQsNTkyTDEyOCw1OTJMMTEyLDU5Mkw5Niw1OTJMODAsNTkyTDY0LDU5Mkw2NCw1NzZMNjQsNTYwTDY0LDU0NEw2NCw1MjhMNjQsNTEyTDY0LDQ5Nkw2NCw0ODBNODAsNDk2TDgwLDUxMkw4MCw1MjhMODAsNTQ0TDgwLDU2MEw4MCw1NzZMOTYsNTc2TDExMiw1NzZMMTI4LDU3NkwxNDQsNTc2TDE2MCw1NzZMMTYwLDU2MEwxNjAsNTQ0TDE2MCw1MjhMMTYwLDUxMkwxNjAsNDk2TDE0NCw0OTZMMTI4LDQ5NkwxMTIsNDk2TDk2LDQ5Nkw4MCw0OTZaIiAvPgo8L2c+CjxnIGlkPSdjb3JuZXJzLWlubmVyLTMnIHN0eWxlPSdmaWxsOiMwMDAwMDAnID4KPHBhdGggZD0iTTk2LDUxMkwxMTIsNTEyTDEyOCw1MTJMMTQ0LDUxMkwxNDQsNTI4TDE0NCw1NDRMMTQ0LDU2MEwxMjgsNTYwTDExMiw1NjBMOTYsNTYwTDk2LDU0NEw5Niw1MjhMOTYsNTEyWiIgLz4KPC9nPgo8L3N2Zz4K">
+
+</center>
 
 <!--
 
@@ -619,115 +625,28 @@ Lessons:
 
 ---
 
-# Intermission
-
-## So, how does this work?
-
-At the core of each AI assistant lies a large language model that predicts most
-likely next token (word) given the previous words. There's a limited window of
-how many takes the mdoel can look back to.
-
-When you chat with the language model, it seeds the context with the past
-conversation and your latest prompt, and then goes on generating the most
-likely word, one word after another.
-
----
-
-# Intermission
-
-Here's an example of how that could work:
-````md magic-move
-```md
-To date, the cleverest thinker of all time was [...]
-```
-```md
-To date, the cleverest thinker of all time was undoubtedly [...]
-```
-```md
-To date, the cleverest thinker of all time was undoubtedly Einsten, [...]
-```
-```md
-To date, the cleverest thinker of all time was undoubtedly Einsten, for [...]
-```
-```md
-To date, the cleverest thinker of all time was undoubtedly Einsten, for his [...]
-```
-```md
-To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
-theories[...]
-```
-```md
-To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
-theories of Relativity[...]
-```
-```md
-To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
-theories of Relativity, which completely revolutionized our understanding [...]
-```
-```md
-To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
-theories of Relativity, which completely revolutionized our understanding
-of the physical world and laid the groundworks for modern physics. [...]
-```
-```md
-To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
-theories of Relativity, which completely revolutionized our understanding 
-of the physical world and laid the groundworks for modern physics. <endoftext>
-```
-````
----
-
-# Intermission
-
-## Key takeaways
-
-- All information specific to your problem has to be in your context
-    - That includes previous prompts _and responses_
-- Any information outside of the context window is "lost"
-- The size of the AI assistant's context window is extremely important as it
-  determines the maximum size of the problem you're trying to solve
-
----
-
-# Intermission
-
-Some numbers:
-- ChatGPT-3.5 -- 2048 tokens
-- ChatGPT-4 -- 8k tokens
-- Gemini -- 32k tokens
-- Gemini Pro -- "up to millions"
-- Anthropic Claude 3 Opus -- 200k tokens, can be extended to 1 million
-
----
-
 # Task 3: Refactoring Code
 
 The goal here is to improve code readability and performance based on AI suggestions. The following code snippet has a couple of issues with readability and maintainability, let's see if AI can fix those:
 
-```java {all}{maxHeight:'350px'}
-import java.util.*;
+```python {all}{maxHeight:'350px'}
+# file: process_data.py
+def process_data():
+    # Simulated data fetch
+    raw_data = "name:John Doe,age:29;name:Jane Smith,age:34"
+    
+    # Processing data
+    entries = raw_data.split(";")
+    for entry in entries:
+        details = entry.split(",")
+        name = details[0].split(":")[1]
+        age = details[1].split(":")[1]
+        
+        # Output generation
+        print(f"Name: {name}, Age: {age}")
 
-public class DataProcessor {
-    public static void processData() {
-        // Simulated data fetch
-        String rawData = "name:John Doe,age:29;name:Jane Smith,age:34";
-         
-        // Processing data
-        String[] entries = rawData.split(";");
-        for (String entry : entries) {
-            String[] details = entry.split(",");
-            String name = details[0].split(":")[1];
-            String age = details[1].split(":")[1];
-             
-            // Output generation
-            System.out.println("Name: " + name + ", Age: " + age);
-        }
-    }
- 
-    public static void main(String[] args) {
-        processData();
-    }
-}
+if __name__ == "__main__":
+    process_data()
 ```
 
 --- 
@@ -740,33 +659,26 @@ public class DataProcessor {
 <div class="entry user">
 
 ```md {all}{maxHeight:'100px'}
-Refactor this Java method for better readability and modularity:
+Refactor this python program for better readability and modularity:
 
-~~~java
-import java.util.*;
+~~~python
+def process_data():
+    # Simulated data fetch
+    raw_data = "name:John Doe,age:29;name:Jane Smith,age:34"
+    
+    # Processing data
+    entries = raw_data.split(";")
+    for entry in entries:
+        details = entry.split(",")
+        name = details[0].split(":")[1]
+        age = details[1].split(":")[1]
+        
+        # Output generation
+        print(f"Name: {name}, Age: {age}")
 
-public class DataProcessor {
-    public static void processData() {
-        // Simulated data fetch
-        String rawData = "name:John Doe,age:29;name:Jane Smith,age:34";
-         
-        // Processing data
-        String[] entries = rawData.split(";");
-        for (String entry : entries) {
-            String[] details = entry.split(",");
-            String name = details[0].split(":")[1];
-            String age = details[1].split(":")[1];
-             
-            // Output generation
-            System.out.println("Name: " + name + ", Age: " + age);
-        }
-    }
- 
-    public static void main(String[] args) {
-        processData();
-    }
-}
-~~~java
+if __name__ == "__main__":
+    process_data()
+~~~
 ```
 
 </div>
@@ -779,65 +691,59 @@ public class DataProcessor {
 <div class="entry ai">
 
 ```md {all}{maxHeight:'260px'}
-Here's the refactored Java method for better readability and modularity:
+The original program can be refactored to improve readability and modularity by
+separating concerns into different functions. This makes the code easier to
+maintain and test. Here's how you can refactor it:
 
-~~~java
-import java.util.*;
+1. **Separate data fetching**: Isolate the data fetching logic into its own
+   function. This allows for easier modification of the data source in the
+   future.
+2. **Parse entries separately**: Create a function to parse individual entries
+   from the raw data. This enhances modularity and readability.
+3. **Print results in a dedicated function**: This improves the separation of
+   the output logic from data processing.
 
-public class DataProcessor {
+Here's the refactored version of the program:
 
-  public static void main(String[] args) {
-    String rawData = "name:John Doe,age:29;name:Jane Smith,age:34";
-    List<Map<String, String>> data = processData(rawData);
-    for (Map<String, String> entry : data) {
-      System.out.println("Name: " + entry.get("name") + ", Age: " + entry.get("age"));
-    }
-  }
+~~~~python
+def fetch_data():
+    """Simulate fetching data from a source."""
+    return "name:John Doe,age:29;name:Jane Smith,age:34"
 
-  public static List<Map<String, String>> processData(String rawData) {
-    List<Map<String, String>> data = new ArrayList<>();
-    for (String entry : rawData.split(";")) {
-      data.add(parseEntry(entry));
-    }
-    return data;
-  }
+def parse_entry(entry):
+    """Parse a single entry into a dictionary."""
+    details = entry.split(",")
+    name = details[0].split(":")[1]
+    age = details[1].split(":")[1]
+    return {'name': name, 'age': age}
 
-  private static Map<String, String> parseEntry(String entry) {
-    Map<String, String> dataMap = new HashMap<>();
-    for (String detail : entry.split(",")) {
-      String[] keyValue = detail.split(":");
-      dataMap.put(keyValue[0].trim(), keyValue[1].trim());
-    }
-    return dataMap;
-  }
-}
-~~~
+def print_person(person):
+    """Print information about a person."""
+    print(f"Name: {person['name']}, Age: {person['age']}")
 
-**Explanation of the refactor:**
+def process_data():
+    raw_data = fetch_data()
+    entries = raw_data.split(";")
+    for entry in entries:
+        person = parse_entry(entry)
+        print_person(person)
 
-1. **Extracted methods:** The data processing logic is separated into two
-   helper methods:
-    - `processData(String rawData)`: Takes raw data as input and returns a list
-      of maps containing parsed data (name and age).
-    - `parseEntry(String entry)`: Parses a single data entry (separated by
-      commas) into a map with keys "name" and "age".
+if __name__ == "__main__":
+    process_data()
+~~~~
 
-2. **Improved variable names:** More descriptive names are used for variables
-   like `dataMap` and `keyValue`.
-
-3. **Used List and Map:** The processed data is stored in a `List` of `Map` for
-   better organization and handling multiple entries.
-
-4. **Main method clarity:** The `main` method focuses on data retrieval,
-   processing, and printing the results.
-
-5. **Minor improvements:**
-    - Used `trim()` to remove leading/trailing whitespaces from names and ages.
-    - Changed `static` to non-static for better object-oriented principles (can
-      be instantiated if needed).
-
-This refactored code is more readable, maintainable, and easier to understand
-by separating concerns and using appropriate data structures.
+### Explanation
+- **fetch_data()**: Returns the raw data string. This can be modified to fetch
+  data from a database, a file, or an API.
+- **parse_entry(entry)**: Takes a single entry from the raw data and returns a
+  dictionary with parsed 'name' and 'age'. This makes it easier to adapt if the
+  data format changes or if more fields are added.
+- **print_person(person)**: Accepts a dictionary representing a person and
+  prints their details. This separates the presentation of data from its
+  processing, making it easier to change the output format or medium (like
+  writing to a file or a web page instead of printing to the console).
+- **process_data()**: Orchestrates the fetching, parsing, and printing of data,
+  adhering to a single-responsibility principle for each function.
 ```
 
 </div>
@@ -987,11 +893,447 @@ Note: Gemini has to be prompted multiple times to arrive at a solution
 
 ---
 
-# Task 5: Interaction with an Unfamiliar API
+# Intermission
+
+## So, how does this work?
+
+At the core of each AI assistant lies a large language model that predicts most
+likely next token (word) given the previous words. There's a limited window of
+how many takes the mdoel can look back to.
+
+When you chat with the language model, it seeds the context with the past
+conversation and your latest prompt, and then goes on generating the most
+likely word, one word after another.
+
+---
+
+# Intermission
+
+Here's an example of how that could work:
+````md magic-move
+```md
+To date, the cleverest thinker of all time was [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
+theories[...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
+theories of Relativity[...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
+theories of Relativity, which completely revolutionized our understanding [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
+theories of Relativity, which completely revolutionized our understanding
+of the physical world and laid the groundworks for modern physics. [...]
+```
+```md
+To date, the cleverest thinker of all time was undoubtedly Einsten, for his 
+theories of Relativity, which completely revolutionized our understanding 
+of the physical world and laid the groundworks for modern physics. <endoftext>
+```
+````
+---
+
+# Intermission
+
+## Key takeaways
+
+- All information specific to your problem has to be in your context
+    - That includes previous prompts _and responses_
+- Any information outside of the context window is "lost"
+- The size of the AI assistant's context window is extremely important as it
+  determines the maximum size of the problem you're trying to solve
+
+---
+
+# Intermission
+
+Some numbers:
+- ChatGPT-3.5 -- 2048 tokens
+- ChatGPT-4 -- 8k tokens
+- Gemini -- 32k tokens
+- Gemini Pro -- "up to millions"
+- Anthropic Claude 3 Opus -- 200k tokens, can be extended to 1 million
+
+<!--
+With that said, let's move on to the next task
+-->
+
+---
+
+# Task 5: Generating terraform code
+
+### Objective
+Generate Terraform configuration files to deploy a basic three-tier web application architecture in AWS, consisting of the following components:
+
+- A Virtual Private Cloud (VPC)
+- Subnets (Public and Private)
+- An Internet Gateway
+- Route Tables
+- Security Groups
+- An EC2 instance for the web server
+- An RDS instance for the database
+
+---
+
+# Task 5: Generating terraform code
+
+<v-click>
+
+<div class="entry user">
+
+```md {all}{maxHeight:'150px'}
+As an infrastructure engineer, I need to deploy a secure, scalable three-tier
+web application in AWS. The architecture should include a VPC, public and
+private subnets, an Internet Gateway, route tables linking the subnets to the
+internet, security groups to restrict access appropriately, an EC2 instance to
+host the web server in a public subnet, and an RDS instance for the database in
+a private subnet.
+```
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="entry ai">
+
+```md {all}{maxHeight:'280px'}
+Deploying a secure and scalable three-tier web application in AWS requires
+careful consideration of each component and its configuration to ensure both
+security and functionality. Below, I'll outline a step-by-step guide to setting
+up this architecture.
+
+### 1. Create a Virtual Private Cloud (VPC)
+- **Create a VPC** in AWS. This will act as a virtual network dedicated to your
+  AWS account.
+- **Specify a CIDR block** for your VPC (e.g., `10.0.0.0/16`).
+
+### 2. Subnet Creation
+- **Create public subnets** in different Availability Zones for high
+  availability. Public subnets are where your internet-facing resources will
+  reside, like the web server.
+- **Create private subnets** in different Availability Zones for your database.
+  Resources in these subnets will not be directly accessible from the internet.
+
+### 3. Internet Gateway and Route Tables
+- **Attach an Internet Gateway (IGW)** to your VPC to allow communication
+  between resources in your VPC and the internet.
+- **Create route tables** for public and private subnets. Public route tables
+  should have a default route to the IGW. Private route tables should not have
+  direct routes to the IGW.
+
+### 4. Network Access Control Lists (NACLs) and Security Groups
+- **Set up NACLs** as an additional layer of security that acts as a firewall
+  for associated subnets, controlling both inbound and outbound traffic at the
+  subnet level.
+- **Create security groups** for different types of instances (e.g., web
+  servers, database servers):
+  - **Web Server Security Group**: Allow inbound traffic on HTTP (port 80) and
+    HTTPS (port 443) from anywhere (0.0.0.0/0) and outbound traffic to the
+    internet and the private subnets.
+  - **Database Security Group**: Allow inbound traffic on the database port
+    only from the web server security group and no direct access from the
+    internet.
+
+### 5. EC2 Instance for the Web Server
+- **Launch an EC2 instance** in the public subnet to host your web application.
+  Choose an appropriate AMI (Amazon Machine Image), instance type, and
+  configure it to be part of the web server security group.
+- **Install necessary software** like a web server (Apache, Nginx) and any
+  other required software stack.
+
+### 6. RDS Instance for the Database
+- **Set up an RDS instance** in the private subnet. Choose the appropriate
+  database engine (e.g., MySQL, PostgreSQL).
+- **Configure the RDS instance** to be part of the database security group,
+  ensuring it can only be accessed from the EC2 instances within the web server
+  security group.
+
+### 7. Elastic Load Balancer (ELB)
+- **Implement an ELB** to distribute incoming traffic across multiple EC2
+  instances, enhancing the fault tolerance and scalability of your application.
+- Place the ELB in the public subnets and configure it to forward requests to
+  the EC2 instances in the public subnets.
+
+### 8. Additional Considerations
+- **Enable CloudWatch** for monitoring and logs to keep track of application
+  performance and security.
+- **Consider Auto Scaling** to automatically adjust the number of EC2 instances
+  in response to traffic fluctuations.
+- **Backup and disaster recovery plans** should be established for both your
+  EC2 and RDS instances.
+
+### 9. Testing and Validation
+- **Test your setup** thoroughly to ensure everything is functioning as
+  expected. Test failover by simulating failure scenarios and validate that the
+  ELB properly distributes traffic.
+- **Perform security audits** to check for vulnerabilities.
+
+This setup should provide a robust foundation for deploying a secure, scalable
+three-tier web application in AWS. Make sure to adhere to AWS best practices
+for security and architecture design throughout your deployment process.
+```
+
+</div>
+
+</v-click>
+---
+
+# Task 5: Generating terraform code
+
+<v-click>
+
+<div class="entry user">
+
+```md {all}{maxHeight:'150px'}
+Can you create terraform code automating all these steps, that follows modern
+best practices such as using common public terraform modules, using S3 backend
+for state storage and  workspaces for isolating environment-specific state
+definitions?
+```
+
+</div>
+
+</v-click>
+
+<v-click>
+
+<div class="entry ai">
+
+```md {all}{maxHeight:'280px'}
+Creating a Terraform configuration to deploy a secure, scalable three-tier web
+application on AWS involves several components. Below, I'll provide a
+structured Terraform setup that includes the use of common public modules, an
+S3 backend for state storage, and workspaces for isolating environment-specific
+configurations.
+
+### Directory and File Structure
+
+Let's first outline the directory and file structure for organizing the
+Terraform code:
+
+~~~
+terraform/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── backend.tf
+├── provider.tf
+└── environments/
+    ├── prod/
+    │   └── terraform.tfvars
+    └── dev/
+        └── terraform.tfvars
+~~~
+
+### 1. Backend Configuration (`backend.tf`)
+
+This file will configure Terraform to use an Amazon S3 bucket as the backend
+for state storage.
+
+~~~~hcl
+terraform {
+  backend "s3" {
+    bucket         = "your-terraform-state-bucket"
+    key            = "path/to/my/environment/terraform.tfstate"
+    region         = "us-east-1"
+    dynamodb_table = "your-lock-table"
+    encrypt        = true
+  }
+}
+~~~~
+
+### 2. Provider Setup (`provider.tf`)
+
+This file configures the AWS provider.
+
+~~~~hcl
+provider "aws" {
+  region = var.region
+}
+~~~~
+
+### 3. Main Configuration (`main.tf`)
+
+This file will use modules to set up the VPC, subnets, EC2, and RDS instances.
+
+~~~~hcl
+module "vpc" {
+  source  = "terraform-aws-modules/vpc/aws"
+  version = "~> 3.0"
+
+  name = "MyVPC"
+  cidr = "10.0.0.0/16"
+
+  azs             = ["us-east-1a", "us-east-1b"]
+  private_subnets = ["10.0.1.0/24", "10.0.2.0/24"]
+  public_subnets  = ["10.0.101.0/24", "10.0.102.0/24"]
+
+  enable_nat_gateway = true
+  single_nat_gateway = true
+  enable_dns_hostnames = true
+  enable_dns_support   = true
+
+  public_subnet_tags = {
+    "Name" = "MyPublicSubnet"
+    "Tier" = "Public"
+  }
+  private_subnet_tags = {
+    "Name" = "MyPrivateSubnet"
+    "Tier" = "Private"
+  }
+}
+
+module "ec2" {
+  source  = "terraform-aws-modules/ec2-instance/aws"
+  version = "~> 3.0"
+
+  name           = "WebServer"
+  instance_count = 1
+
+  ami                    = data.aws_ami.latest.id
+  instance_type          = "t2.micro"
+  subnet_id              = element(module.vpc.public_subnets, 0)
+  vpc_security_group_ids = [module.sg.web_sg_id]
+
+  tags = {
+    "Name" = "MyWebServer"
+  }
+}
+
+module "rds" {
+  source  = "terraform-aws-modules/rds/aws"
+  version = "~> 3.0"
+
+  identifier = "mydb"
+  engine     = "mysql"
+  version    = "8.0"
+
+  instance_class = "db.t3.micro"
+  allocated_storage = 20
+  max_allocated_storage = 100
+  storage_encrypted = true
+
+  db_subnet_group_name = module.vpc.database_subnet_group
+  vpc_security_group_ids = [module.sg.db_sg_id]
+}
+
+module "sg" {
+  source  = "terraform-aws-modules/security-group/aws"
+  version = "~> 4.0"
+
+  name        = "WebSG"
+  description = "Security group for web server"
+  vpc_id      = module.vpc.vpc_id
+
+  ingress_cidr_blocks = ["0.0.0.0/0"]
+  egress_cidr_blocks  = ["0.0.0.0/0"]
+  ingress_rules       = ["http-80-tcp", "https-443-tcp"]
+  egress_rules        = ["all-all"]
+}
+~~~~
+
+### 4. Variables (`variables.tf`)
+
+Define necessary variables here.
+
+~~~~hcl
+variable "region" {
+  description = "AWS region"
+  default     = "us-east-1"
+}
+
+data "aws_ami" "latest" {
+  most_recent = true
+
+  filter {
+    name   = "name"
+    values = ["amzn2-ami-hvm-*-x86_64-gp2"]
+  }
+
+  owners = ["amazon"]  // Amazon Linux AMI
+}
+~~~~
+
+### 5. Outputs (`outputs.tf`)
+
+~~~~hcl
+output "web_server_public_ip" {
+  value = module.ec2.public_ip
+}
+
+output "db_instance_address" {
+  value = module.rds.db_instance_address
+}
+~~~~
+
+### 6. Environment configuration (`environments/prod/terraform.tfvars`)
+~~~~
+region = "us-east-1"
+~~~~
+
+### Execution Steps
+
+1. Initialize the backend and download modules:
+~~~
+terraform init
+~~~
+
+2. Create a new workspace or select an existing one:
+~~~
+terraform workspace new prod
+~~~
+
+or 
+~~~
+terraform workspace select prod
+~~~
+
+3. Apply the configuration:
+~~~
+terraform apply
+~~~
+
+```
+
+</div>
+
+</v-click>
+---
+
+# Task 5: Summary
+
+- At least ChatGPT-4 is able to provide a reasonable starting point for a simple well-known terraform configuration
+- The configuration cab be modified pretty easily by adding additional requirements
+- But I'm not a infrastructure engineer, what do you think?
+
+---
+
+# Task 6: Working with an Unfamiliar API
 
 ### Objective
 
-Write a Python script to scan a DynamoDB users table and delete records where the email address matches a given regular expression pattern.
+Write a Python script to scan a DynamoDB users table and delete records where
+the email address matches a given regular expression pattern.
 
 ### Provided Information
 
@@ -1003,7 +1345,7 @@ Write a Python script to scan a DynamoDB users table and delete records where th
 
 ---
 
-# Task 5: interaction with an Unfamiliar API
+# Task 6: interaction with an Unfamiliar API
 
 <v-click>
 
@@ -1093,7 +1435,7 @@ for large datasets.
 
 ---
 
-# Task 5: Interaction with an Unfamiliar API
+# Task 6: Interaction with an Unfamiliar API
 
 Notes:
 - As noted by the assistant, handling large tables needs pagination. Tweak the script so that it uses pagination.
@@ -1101,7 +1443,7 @@ Notes:
 
 ---
 
-# Task 6: Analysis of a TCP Packet Capture
+# Task 7: Analysis of a TCP Packet Capture
 
 Let's try something else not directly related to programming. Let's see if
 modern AI assistants can handle a task of analyzing a TCP packet capture.
@@ -1116,7 +1458,7 @@ Challenge:
 
 ---
 
-# Task 6: Analysis of a TCP Packet Capture
+# Task 7: Analysis of a TCP Packet Capture
 
 <v-click>
 
@@ -1275,7 +1617,7 @@ may require further analysis depending on the specific needs.
 
 ---
 
-# Task 6: Analysis of TCP packet capture
+# Task 7: Analysis of TCP packet capture
 
 Results: In our experiments, both Gemini and Google were successful at
 analyzing simple TCP packet captures and providing basic insights on their
